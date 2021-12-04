@@ -69,5 +69,6 @@ int get_available_items(char file[], char string[])
 }
 int main(int argc, char**argv)
 {
+    printf("This is to check the git push system\n");
     printf("%d\n",get_available_items("jewelry1.txt","stone"));
 }
