@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-
+//updated file
 int get_available_items(char file[], char string[])
 {
     FILE *fp;
