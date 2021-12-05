@@ -16,8 +16,13 @@ Here, the weights are 15%, 70%, 50%, which is greater than 100%
 float calculate_grades(int num_grades,char type[])
 {   
     int i;
+<<<<<<< HEAD
     float total_num[num_grades],ret_avg,overall=0.0; // total_num array saves each input of homework assignment//
     for(i=0;i<num_grades;i++) //num_grades is the number of overall assignments input into the function for HW//
+=======
+    float total_num[num_grades],ret_avg,overall=0.0;
+    for(i=0;i<num_grades;i++)
+>>>>>>> dd4d754c082b3077b533fb7966795f3a47675620
     {
         printf("Enter %s grade %d: ",type,(i+1));
         scanf("%f",&total_num[i]);
@@ -89,7 +94,11 @@ int main (int argc, char **argv)
         {
             printf("\n");
             for(i=0;i<3;i++)
+<<<<<<< HEAD
             {                                           
+=======
+            {
+>>>>>>> dd4d754c082b3077b533fb7966795f3a47675620
                 grades[i][0]=(float) v_int[((i*2)+1)];
             }
             for(i=0;i<3;i++)
